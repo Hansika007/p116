@@ -1,0 +1,24 @@
+h3 
+{
+    font-size: 25px !important; 
+}
+
+.btn-warning:hover 
+{ 
+    background-color: rgb(47, 154, 255); 
+}
+
+canvas
+{
+    animation-name: Example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Example
+{
+    10%{box-shadow:5px 5px 38px rgb(255, 96, 38);}
+    32%{box-shadow:5px 5px 38px rgb(51, 255, 221);}
+    56%{box-shadow:5px 5px 38px rgb(255, 50, 255);}
+    100%{box-shadow:5px 5px 38px rgb(58, 255, 134);}
+}
